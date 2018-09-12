@@ -123,7 +123,7 @@ exports.decorateConfig = (config) => {
       }
       .tab_tab {
         border: 0;
-        background-color: rgba(0,0,0,0.05) !important;
+        background-color: rgba(0,0,0,0.05);
         ${tabBorder}
       }
       .tab_tab${tabNoFirstChild} {
