@@ -123,6 +123,7 @@ exports.decorateConfig = (config) => {
       }
       .tab_tab {
         border: 0;
+        background-color: rgba(0,0,0,0.05) !important;
         ${tabBorder}
       }
       .tab_tab${tabNoFirstChild} {
@@ -135,6 +136,7 @@ exports.decorateConfig = (config) => {
       .tab_textActive {
         color: ${TAB_TEXT_COLOR};
         font-weight: 600;
+        background-color: ${BACKGROUND} !important;
         border-top: 1px solid ${TAB_BORDER_ACTIVE_COLOR} !important;
       }
       .tab_icon {
