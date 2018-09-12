@@ -80,7 +80,7 @@ exports.decorateConfig = (config) => {
 
   // environment specifics
   if (isWin) {
-	  tabBorder = `border-bottom: 1px solid ${tabBorderColor} !important;`;
+	  tabBorder = `border-top: 1px solid ${tabBorderColor} !important;`;
     tabNoFirstChild = ':not(:first-child)';
   } else {
 	  headerBorderColor = tabBorderColor;
@@ -113,8 +113,6 @@ exports.decorateConfig = (config) => {
         left: 0;
         right: 0;
         color: ${headerForegroundColor} !important;
-        background: ${headerBackgroundColor} !important;
-        border-bottom: 1px solid ${headerBorderColor} !important;
       }
       .header_shape {
         color: ${headerForegroundColor} !important;
