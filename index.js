@@ -128,10 +128,10 @@ exports.decorateConfig = (config) => {
         content: '';
         position: absolute;
         top: 0;
-        left: 0;
+        left: -77px;
         width: 77px;
         height: 100%;
-        background-color: rgba(0,0,0,0.05);
+        background-color: rgba(255,255,255,0.5);
       }
       .tabs_title {
         color: ${TAB_TEXT_COLOR};
@@ -139,11 +139,11 @@ exports.decorateConfig = (config) => {
       }
       .tab_tab {
         border: 0;
-        background-color: rgba(0,0,0,0.05);
+        background-color: rgba(255,255,255,0.5) !important;
         ${tabBorder}
       }
-      .tab_tab${tabNoFirstChild} {
-        border-left: 1px solid ${tabBorderColor} !important;
+      .tab_tab.tab_active {
+        background-color: transparent !important;
       }
       .tab_text {
         color: ${TAB_TEXT_COLOR};
