@@ -108,6 +108,10 @@ exports.decorateConfig = (config) => {
       .splitpane_divider {
         background-color: ${tabBorderColor} !important;
       }
+      .header_header {
+        background: transparent !important;
+        border-bottom: none !important;
+      }
       .header_header, .header_windowHeader {
         top: 0;
         left: 0;
@@ -116,6 +120,18 @@ exports.decorateConfig = (config) => {
       }
       .header_shape {
         color: ${headerForegroundColor} !important;
+      }
+      .tabs_list {
+        position: relative;
+      }
+      .tabs_list:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 77px;
+        height: 100%;
+        background-color: rgba(0,0,0,0.05);
       }
       .tabs_title {
         color: ${TAB_TEXT_COLOR};
