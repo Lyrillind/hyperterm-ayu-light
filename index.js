@@ -60,7 +60,7 @@ const colors = {
   lightMagenta: MAGENTA,
   lightCyan: CYAN,
   colorCubes: WHITE,
-  grayscale: FOREGROUND
+  grayscale: GRAY
 };
 
 exports.decorateConfig = (config) => {
