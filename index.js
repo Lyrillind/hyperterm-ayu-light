@@ -24,7 +24,7 @@
 
 'use strict';
 
-const BACKGROUND = '#FAFAFA';
+const BACKGROUND = '#F7F7F7';
 const FOREGROUND = '#6E7580';
 
 const RED = '#F51818';
@@ -131,7 +131,7 @@ exports.decorateConfig = (config) => {
         left: -77px;
         width: 77px;
         height: 100%;
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(255,255,255,0.8);
       }
       .tabs_title {
         color: ${TAB_TEXT_COLOR};
@@ -139,7 +139,7 @@ exports.decorateConfig = (config) => {
       }
       .tab_tab {
         border: 0;
-        background-color: rgba(255,255,255,0.5) !important;
+        background-color: rgba(255,255,255,0.8) !important;
         ${tabBorder}
       }
       .tab_tab.tab_active {
