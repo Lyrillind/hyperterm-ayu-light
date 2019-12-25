@@ -24,7 +24,7 @@
 
 'use strict';
 
-const BACKGROUND = '#F1F1F1';
+const BACKGROUND = '#F8F8F8';
 const FOREGROUND = '#6E7580';
 
 const RED = '#F51818';
